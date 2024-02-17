@@ -3,7 +3,7 @@ import "./navbar.scss";
 import { Link } from "react-router-dom";
 import { Menu, LightMode, DarkMode } from "@mui/icons-material";
 import { ToggleButton } from "@mui/material";
-import { ThemeContext } from "../../context/theme.context";
+import { ThemeContext } from "../../context/theme";
 
 const links = [
   { href: "/", label: "Home" },
