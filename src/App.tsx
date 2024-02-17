@@ -2,7 +2,7 @@ import { useContext, lazy, Suspense } from "react";
 import Navbar from "./components/navbar/Navbar.component";
 import { ThemeContext } from "./context/theme.context";
 import { Routes, Route } from "react-router-dom";
-import CustomLinearProgress from "./components/custom-linear-progress/CustomLinearProgress.component";
+import CustomLinearProgress from "./components/custom-linear-progress/CustomLinearProgress";
 
 // Imports with Lazy loading
 const Home = lazy(() => import("./pages/home/Home.page"));
