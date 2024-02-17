@@ -4,7 +4,7 @@ import { DataGrid } from "@mui/x-data-grid";
 import { GridColDef } from "@mui/x-data-grid/models";
 import moment from "moment";
 import React from "react";
-import { baseUrl } from "../../constants/url.constants";
+import { baseUrl } from "../../constants/url";
 import { ICandidate } from "../../types/global.typing";
 import { PictureAsPdf } from "@mui/icons-material";
 
