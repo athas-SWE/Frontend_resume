@@ -7,7 +7,7 @@ import CustomLinearProgress from "./components/custom-linear-progress/CustomLine
 // Imports with Lazy loading
 const Home = lazy(() => import("./pages/home/Home"));
 const Companies = lazy(() => import("./pages/companies/Companies"));
-const AddCompany = lazy(() => import("./pages/companies/AddCompany.page"));
+const AddCompany = lazy(() => import("./pages/companies/AddCompany"));
 const Jobs = lazy(() => import("./pages/jobs/Jobs.page"));
 const AddJob = lazy(() => import("./pages/jobs/AddJob.page"));
 const Candidates = lazy(() => import("./pages/candidates/Candidates.page"));
