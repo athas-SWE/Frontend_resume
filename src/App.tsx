@@ -9,7 +9,7 @@ const Home = lazy(() => import("./pages/home/Home"));
 const Companies = lazy(() => import("./pages/companies/Companies"));
 const AddCompany = lazy(() => import("./pages/companies/AddCompany"));
 const Jobs = lazy(() => import("./pages/jobs/Jobs"));
-const AddJob = lazy(() => import("./pages/jobs/AddJob.page"));
+const AddJob = lazy(() => import("./pages/jobs/AddJob"));
 const Candidates = lazy(() => import("./pages/candidates/Candidates.page"));
 const AddCandidate = lazy(() => import("./pages/candidates/AddCandidate.page"));
 
