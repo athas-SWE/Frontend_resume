@@ -5,7 +5,7 @@ import { IJob } from "../../types/global.typing";
 import { Button, CircularProgress } from "@mui/material";
 import { Add } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
-import JobsGrid from "../../components/jobs/JobsGrid.component";
+import JobsGrid from "../../components/jobs/JobsGrid";
 
 const Jobs = () => {
   const [jobs, setJobs] = useState<IJob[]>([]);
