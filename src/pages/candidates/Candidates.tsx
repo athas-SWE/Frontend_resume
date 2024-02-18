@@ -5,7 +5,7 @@ import { ICandidate } from "../../types/global.typing";
 import { Button, CircularProgress } from "@mui/material";
 import { Add } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
-import CandidatesGrid from "../../components/candidates/CandidatesGrid.component";
+import CandidatesGrid from "../../components/candidates/CandidatesGrid";
 
 const Candidates = () => {
   const [candidates, setCandidates] = useState<ICandidate[]>([]);
